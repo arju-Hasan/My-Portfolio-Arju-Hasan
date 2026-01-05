@@ -29,7 +29,7 @@
 //   );
 // }
 import React from "react";
-import { BsTwitterX } from "react-icons/bs";
+import { BsFacebook, BsTwitterX } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
@@ -114,6 +114,12 @@ export default function Footer() {
             href="https://x.com/dev_arju95"
           >
             <BsTwitterX />
+          </a>
+          <a
+            className="w-10 h-10 rounded-full bg-white/5 hover:bg-primary hover:text-white flex items-center justify-center text-gray-400 transition-colors"
+            href="https://www.facebook.com/arju95"
+          >
+            <BsFacebook />
           </a>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Background from "./Background";
+import { FaDownload } from "react-icons/fa";
 
 export default function Navbar() {
   const [theme, setTheme] = useState(() =>
@@ -79,12 +80,12 @@ export default function Navbar() {
         </div>
         <a
           className="hidden sm:flex bg-primary hover:bg-primary/90 text-white text-sm font-bold px-6 py-2.5 rounded-full transition-all neon-glow items-center gap-2"
-          href="#contact"
+          href="https://docs.google.com/document/d/1pYKEOsvyNQ021iaBPDmk9FyX1_BzmXHgeAHhTAE1jPU/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <span>Hire Me</span>
-          <span className="material-symbols-outlined text-[16px]">
-            arrow_forward
-          </span>
+          <span>Resume</span>
+          <FaDownload />
         </a>
 
         {/* Theme toggle */}

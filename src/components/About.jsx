@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div
       id="about"
-      className="relative max-w-4xl mx-auto px-6 py-14 mt-10 rounded-3xl border border-white/10 bg-[#0A0A0F]/60 backdrop-blur-xl shadow-[0_0_80px_#6b2cff30] text-gray-300"
+      className="relative max-w-4xl mx-auto px-6 py-14 m-10 rounded-3xl border border-white/10 bg-[#0A0A0F]/60 backdrop-blur-xl shadow-[0_0_80px_#6b2cff30] text-gray-300"
     >
       {/* TOP LEFT NEON CORNER */}
       <div className="absolute -top-2 -left-2 w-10 h-10 rounded-tl-3xl border-t-4 border-l-4 border-indigo-400 shadow-[0_0_25px_#7b5cff]"></div>

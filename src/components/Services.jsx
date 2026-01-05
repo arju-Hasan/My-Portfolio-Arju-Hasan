@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <div
       id="Services"
-      className="bg-background-light dark:bg-background-dark font-body antialiased min-h-screen flex items-center justify-center relative overflow-hidden transition-colors duration-300"
+      className="bg-background-light dark:bg-background-dark font-body antialiased min-h-screen flex items-center justify-center relative overflow-hidden transition-colors duration-300 mt-20"
     >
       {/* Background dot patterns */}
       <div className="absolute left-0 top-1/3 w-32 h-64 dot-pattern opacity-30 dark:opacity-20 hidden lg:block"></div>

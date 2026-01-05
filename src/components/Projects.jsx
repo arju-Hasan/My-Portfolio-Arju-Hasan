@@ -1,58 +1,11 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import projects from "../data/projects";
+import { MdOutlineRemoveRedEye } from "react-icons/md";
 
 export default function Projects() {
-  const projects = [
-    {
-      title: "E-TuitionBD",
-      liveUrl: "https://e-tuitionbd.web.app",
-      gitUrl: "https://github.com/arju-Hasan/E-Tuition-BD",
-      img: "https://i.ibb.co.com/nqYsRbQp/Screenshot-2026-01-05-064908.png",
-      description:
-        "Tutoring platform to find tutors, post jobs and connect students with tutors.",
-      tech: [
-        "React",
-        "Firebase",
-        "Tailwind CSS",
-        "Node.js",
-        "MongoDB",
-        "express.js",
-      ],
-    },
-    {
-      title: "Eco Nature",
-      liveUrl: "https://eco-nature-client.web.app",
-      gitUrl: "https://github.com/arju-Hasan/Eco-Nature-Client",
-      img: "https://i.ibb.co.com/JRzrbgh3/Screenshot-2026-01-05-064244.png",
-      description:
-        "Sustainability tracker and community challenges to reduce environmental impact.",
-      tech: [
-        "React",
-        "Firebase",
-        "Admin SDK",
-        "JWT Verification",
-        "Tailwind CSS",
-      ],
-    },
-    {
-      title: "BookHub",
-      liveUrl: "https://bookhub-bd.netlify.app",
-      gitUrl: "https://github.com/arju-Hasan/book-hub",
-      img: "https://i.ibb.co.com/hxKNM6Xg/Screenshot-2026-01-05-064402.png",
-      description:
-        "Book listing and detail pages with searching and browsing features.",
-      tech: ["React", "Netlify", "Tailwind CSS", "mongoDB"],
-    },
-    {
-      title: "Responsive Flowers",
-      liveUrl: "https://arju-hasan.github.io/Responsive-Flowers",
-      gitUrl: "https://github.com/arju-Hasan/Responsive-Flowers",
-      img: "https://i.ibb.co.com/kVm67N5d/Screenshot-2026-01-05-064752.png",
-      description:
-        "Static responsive flower shop demo built with plain HTML/CSS/git.",
-      tech: ["HTML", "CSS", "Tailwind CSS", "Git-Hub"],
-    },
-  ];
+  // Projects are imported from ../data/projects
 
   return (
     <section id="projects" className="py-20 px-4 sm:px-10">
@@ -97,11 +50,13 @@ export default function Projects() {
                     <h4 className="text-xl font-bold text-white mb-1">
                       {p.title}
                     </h4>
-                    <span className="text-xs font-medium text-primary">
-                      Live Project
+                    <span className="flex justify-between w-full">
+                      <span className="text-xs font-medium text-primary">
+                        Live Project
+                      </span>
                     </span>
                   </div>
-                  <div className="flex gap-2">
+                  <div className="flex gap-2 items-center">
                     <a
                       className="flex gap-1 items-center px-3 py-1 rounded-md bg-white/5 hover:bg-white/10 text-white text-sm transition-colors"
                       href={p.gitUrl}
@@ -138,6 +93,27 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
+              </div>
+
+              <div className="p-2 flex justify-between">
+                <a
+                  className=" rounded-md p-1 bg-white/5 hover:bg-white/10 flex items-center justify-center text-white transition-colors"
+                  href={p.liveUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  title="Open Live Demo"
+                >
+                  <span className="flex gap-1 justify-center items-center text-[18px] p-2">
+                    live <MdOutlineRemoveRedEye />
+                  </span>
+                </a>
+                <Link
+                  to={`/projects/${p.slug}`}
+                  className="ml-2 inline-flex items-center gap-2 px-3 py-1 rounded-md bg-primary text-white text-sm hover:bg-primary/90 transition-colors"
+                  title="View project details"
+                >
+                  View Details
+                </Link>
               </div>
             </div>
           ))}

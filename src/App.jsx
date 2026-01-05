@@ -1,14 +1,9 @@
 import React, { useEffect } from "react";
-import Background from "./components/Background";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Journey from "./components/Journey";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Services from "./components/Services";
+import Home from "./Home";
+import ProjectDetail from "./components/ProjectDetail";
 
 export default function App() {
   useEffect(() => {
@@ -25,19 +20,15 @@ export default function App() {
   }, []);
 
   return (
-    <div className="relative z-10">
-      {/* <Background /> */}
-      <Navbar />
-      <main className="">
-        <Hero />
-        <About />
-        <Services />
-        <Skills />
-        <Journey />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div className="relative z-10">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects/:slug" element={<ProjectDetail />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }

@@ -33,10 +33,10 @@ export default function About() {
       <p className="leading-relaxed text-lg mb-5">
         I enjoy working on projects where I can leverage
         <span className="text-blue-400 font-semibold"> React</span>,
+        <span className="text-green-400 font-semibold"> Node.js</span>,
         <span className="text-yellow-300 font-semibold"> JavaScript</span>,
-        <span className="text-green-500 font-semibold"> MongoDB</span>
-        <span className="text-green-400 font-semibold"> Node.js</span>, along
-        with modern UI frameworks like
+        <span className="text-green-500 font-semibold"> MongoDB </span>
+        along with modern UI frameworks like
         <span className="text-red-500 font-semibold"> Tailwind CSS</span>. My
         focus is on building responsive, fast, and scalable web applications
         with clean and maintainable code.
@@ -57,7 +57,7 @@ export default function About() {
           React
         </span>
 
-        <span className="px-5 py-2 rounded-full bg-green-500 text-white text-sm font-semibold shadow-lg">
+        <span className="px-5 py-2 rounded-full bg-green-500 text-black text-sm font-semibold shadow-lg">
           Node.js
         </span>
 

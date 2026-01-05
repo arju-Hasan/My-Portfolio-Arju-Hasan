@@ -1,9 +1,12 @@
 import React from "react";
+import { AiFillSetting } from "react-icons/ai";
 import {
   FaRegArrowAltCircleUp,
   FaWhatsapp,
   FaWhatsappSquare,
 } from "react-icons/fa";
+import { GrLanguage } from "react-icons/gr";
+import { LuMonitorSmartphone } from "react-icons/lu";
 
 const Services = () => {
   return (
@@ -159,7 +162,7 @@ const Services = () => {
             <div className="bg-white dark:bg-card-dark rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-shadow cursor-pointer border border-gray-100 dark:border-none md:mt-12">
               <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center mb-4">
                 <span className="material-icons-outlined text-white text-xl">
-                  code
+                  <LuMonitorSmartphone />
                 </span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -174,8 +177,8 @@ const Services = () => {
             {/* Card 3 */}
             <div className="bg-white dark:bg-card-dark rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-shadow cursor-pointer border border-gray-100 dark:border-none">
               <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center mb-4">
-                <span className="material-icons-outlined text-white text-xl">
-                  settings
+                <span className="material-icons-outlined text-white text-2xl">
+                  <AiFillSetting />
                 </span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -189,8 +192,8 @@ const Services = () => {
             {/* Card 4 */}
             <div className="bg-white dark:bg-card-dark rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-shadow cursor-pointer border border-gray-100 dark:border-none md:mt-12">
               <div className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center mb-4">
-                <span className="material-icons-outlined text-white text-xl">
-                  language
+                <span className="material-icons-outlined text-white text-2xl">
+                  <GrLanguage />
                 </span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -205,22 +208,24 @@ const Services = () => {
       </main>
 
       {/* DARK MODE TOGGLE */}
-      <div className="fixed flex flex-col gap-2 bottom-4 right-4 z-50">
+      <div className="fixed flex flex-col gap-2 bottom-3 right-3 sm:bottom-4 sm:right-4 z-50">
         <button
           id="home"
           onClick={() => window.open("https://wa.me/+8801721602904", "_blank")}
-          className="bg-gray-700 dark:bg-white text-white dark:text-gray-800 p-3 rounded-full shadow-lg border border-gray-600 dark:border-gray-200"
+          className="bg-gray-700 dark:bg-white text-white dark:text-gray-800 p-2 sm:p-3 rounded-full shadow-lg border border-gray-600 dark:border-gray-200"
+          aria-label="Open WhatsApp"
         >
-          <span className="text-2xl">
+          <span className="text-xl sm:text-2xl">
             <FaWhatsapp />
           </span>
         </button>
         <button
           id="home"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="bg-gray-700 dark:bg-white text-white dark:text-gray-800 p-3 rounded-full shadow-lg border border-gray-600 dark:border-gray-200"
+          className="bg-gray-700 dark:bg-white text-white dark:text-gray-800 p-2 sm:p-3 rounded-full shadow-lg border border-gray-600 dark:border-gray-200"
+          aria-label="Scroll to top"
         >
-          <span className="text-2xl">
+          <span className="text-xl sm:text-2xl">
             <FaRegArrowAltCircleUp />
           </span>
         </button>

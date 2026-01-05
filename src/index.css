@@ -15,6 +15,8 @@ html,
 body,
 #root {
   height: 100%;
+  /* Prevent horizontal overflow caused by decorative absolutely positioned elements */
+  overflow-x: hidden;
 }
 
 body {
@@ -62,4 +64,15 @@ body {
   transition-all duration-300 border border-gray-300 dark:border-gray-700 
   hover:border-transparent shadow-lg shadow-transparent 
   hover:shadow-primary/25;
+}
+
+.mobile-link {
+  padding: 10px;
+  border-radius: 12px;
+  color: #ccc;
+  font-weight: 500;
+}
+.mobile-link:hover {
+  background: rgba(6, 182, 212, 0.2);
+  color: white;
 }

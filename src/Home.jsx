@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Journey from "./components/Journey";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import MySkill from "./components/MySkill";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Services />
       <Skills />
+      <MySkill />
       <Journey />
       <Projects />
       <Contact />

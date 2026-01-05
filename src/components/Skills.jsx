@@ -44,58 +44,59 @@ const Skills = () => {
             {[
               {
                 name: "HTML",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA8Tx8cuct4cEsnVvAxVjFvZpYpPSgylGGoy9qBt2UgR2WJpiiPMKd8IJtUyuODlNU6DoCRegxiCB_0ueEHv0b-tkuOe9KNLW8n5crPWy9o04DjYbW8RcwPeFI9qHYtgrMOBb-m_DI2zzCNE_A7OPOMlyOcgU9oSB6UD4mh8mmgh9Yw-uaysY6Urc8j8bP1RnUVsz5TX8DMXPHppK4ax69j4xPZOWOCCAl0eRmWGYIp-nHxdkPxyHUDwCCT5bEBhtp_2asTbZOEz-k",
+                img: "https://i.ibb.co.com/YTRLdhgM/images-removebg-preview.png",
               },
               {
                 name: "CSS",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAiRdcmwqY84XDzWrOas3fjkjh-xGzkQpOeirj3v5vu9V5ST_TkPkc9hlLdLheEG4gMZH4ch8rQ5yHQcUHNp7jZDbBReEaNzNdadZjQZagaSPJaso5_s0HeZS9vQLSyXHvYeMmlzItm6Ftzbai_rVCTAUcW4DpLGam-qhw8SFqnUMaq2MQI9I0_gGCvPhyEkk6nT_aHGIEsQ76Jdn2d5O_1u4S5FkZeKwfw7ovnUBKk50BSgQXQu6JxelsFCzdsGkQOXYLrNms3MXA",
+                img: "https://i.ibb.co.com/1G22M385/CSS3-Logo-PNG-removebg-preview-2.png",
               },
               {
-                name: "SASS",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuARaaQhOgc4_GZ6xLr8SEUIOKcwPQ2qWoPaT6tvujITKd-LylNGTy7zAaEwWNKq6mIKGl3UxvDJe-yDKEqcf1as_iql57t94x6BYlrQ5KDdYaCiUDDcgmnt5V0T5W9wnejvqcfrN0K64bEqd6dM9tSQikztRGAOSkqJPgkeXW6Pch8d9z6m8VPFgOH6gLNd40U8Ifgna7YEXP758Xd2GW9GZu7jMCukM6gG7SfePJQwtpZcknHCDqF_KC2q6QBkYNzifxY-_kqOcFM",
+                name: "Next jS",
+                // img: "https://i.ibb.co.com/XxPDK8w0/next-js-logo-icon-145038-removebg-preview.png",
+                img: "https://i.ibb.co.com/qMFy4C2D/images-4-removebg-preview.png",
               },
               {
                 name: "Javascript",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDNu0_GROlTJEnCsbZ7e4MBBwBshFhi4GYPCuxDAWlmCdGxD05N31H57TL49YfEvYlyhR56mmHjVX1mmG_EsybRc1OB0bnpdLe__8zSton8Zv0iglDz6HdsveWs1M0HctTbJJ0hogCiqF4XGvDqg3UIuusUwYItCE0R48hzrddIOAR4WnokjYHwEJPGBiuwoHJzPAhLx5dsQxtyiVEMExtN8ZbMe8ESOk606L6LhVYyXpoa2aTzdZb1R8bSxhGaRk6imy4-gzD6prk",
+                img: "https://i.ibb.co.com/0y39cbkH/images-2.png",
               },
               {
                 name: "React JS",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuC6qxpbMySKLeA_2UEZPWeQ8-09DmIBp3Gnuf0kc2MJGk5ahhn4ZItit34z_MkXZKLcPs4rF-y_1FP_CWiaE7E9wmIMsKDQvcFWwsXAvmVZDlZ4xijp0eLn6RKDrGiudBpCnwHw3IO2suahJDqU1MO6AHVe5iJTzwsZBjjxzMlNe9nf40diJVDdFsA8hVPpreHagqiSyTQmY46Xe-1MaF4qNc0GmzXZ5zPnJl-vRL8SYQ6gqatT9Qw916Pu8i8NcWmfiLvhXlWS2pw",
+                img: "https://i.ibb.co.com/Gfqq54Jg/images-1-removebg-preview.png",
                 spin: true,
               },
               {
                 name: "Github",
-                svg: true,
+                img: "https://i.ibb.co.com/LDHsKQ3w/25231.png",
               },
               {
                 name: "Node JS",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCxJX_NKEBpwOjmJbukUbMMshDJftLQAg7Df6DxLg6xLyt7cV4qZIOeKF25_hopD2UwUweHFzfM5sQh7NIuN3bdAQY8Eioj4hZMIbj27gMpbht8SwkoX6MZuFM3YkdTBy_kQmYq56ZI-YHed0RfsjSuaJG3OXGl2CRkI7kAUs9l66fKjj76s-geXQAbF-8vFzq9RzliV-XIdlbQZQiS3b6OvixfEJoknDN6IfXbJErKUEkHqJWlhFsGQ-FdMBIhv4Ti86TK57Ef7zM",
+                img: "https://i.ibb.co.com/zhvvQXV1/nodejs-image.webp",
               },
               {
                 name: "Firebase",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDlMEZg_3WaVrRELOmdfrwBvlLGhyWf7c4wdFUf1gvfPGx8_x-3mINjLKqMN1I_NSmxMlHhmz40hzrcMCyqWYp2jbJMziGDmC2Li5v0__wofyDpBq2Lgb-ubBxjmX95BsppdoKu0k2WSedx-gg893sa-fxLV9eO53KT2AEVxy1FZyFyt5NMPxV6e8qx3mdYuqz1RhBWQ3kASHGUxBKnYPaiaQuzZxMZlohob_rZU-5Yz1-FyNl1X5PgWaWnExYNzTykRzxGkbMMWfE",
+                img: "https://i.ibb.co.com/ksBVfgmx/channels4-profile-removebg-preview.png",
               },
               {
                 name: "MongoDB",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAzWlmgP-IIG7YXR2_HOOPCJLpgacy0wY2XV0Y7ngyEiFQsKZaZsISJ1zbIcdNUX8jW3zIAenFZ5VYd55hesi89rCi3s8Igu-FCNhoH85MaDy1y6wZcZbYe02RUzX2Trwdvht_H1v4LjnX-eim5Sm9L3OCpBGtzGp8uk2GSEvxMFqZ1bmSKtGnhzCb6H4WKo_Ej0Lhpzca1k1mnBiz8nMGBax7z2LL5ctJsM2NPdUOCoXozH7MTLsuFNJG4gOjI4GAtwSWDRLxNfF4",
+                img: "https://i.ibb.co.com/spZwTsyw/images-3-removebg-preview.png",
               },
               {
-                name: "Docker",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCivfsfLO-cvqgZ9IdJ4dCmvZE7rE6TLoM6rOw9_FEDR3VFa8VF6_r_ev67Pg3dqVMPpRN6EZMusxi5g8V4THcmaAo_M2dSV22iOMQemCrZi5Wz4Lox3Vfd14t8T4HMaAU8eyZMSxW0JhgDKRQtzLhX-Dxuwnakza9MZ2fbMNq5OUwsOxHkmSfa7_awiXNJWSmldVz6n4Gn7ObV6Y1fu3PhLvPaxwV5_0YP74SIh93ZQvEET1Eew8BLYfB8trv8S9VMy2R87IN9lZs",
+                name: "Tailwind-css",
+                img: "https://i.ibb.co.com/8g6LLq46/tailwind-css-logo-png-seeklogo-354675-removebg-preview.png",
               },
             ].map((skill, index) => (
               <div
                 key={index}
-                className="group flex flex-col items-center justify-center p-6 bg-surface-light dark:bg-surface-dark rounded-xl shadow-soft hover:shadow-glow transition-all duration-300 transform hover:-translate-y-1 border border-transparent hover:border-gray-200 dark:hover:border-gray-800"
+                className="group bg-gray-400 flex flex-col items-center justify-center p-6  rounded-xl shadow-soft hover:shadow-glow transition-all duration-300 transform hover:-translate-y-1 border border-transparent hover:border-gray-200 dark:hover:border-gray-800"
               >
                 <div
-                  className={`w-16 h-16 mb-4 flex items-center justify-center transition-transform group-hover:scale-110 ${
+                  className={`w-16 h-16 mb-4 flex items-center  justify-center transition-transform group-hover:scale-110 ${
                     skill.spin ? "animate-[spin_10s_linear_infinite]" : ""
                   }`}
                 >
                   {skill.svg ? (
                     <svg
-                      className="w-full h-full text-gray-800 dark:text-white fill-current"
+                      className="w-full h-full text-gray-300 dark:text-white fill-current"
                       viewBox="0 0 98 96"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -114,7 +115,7 @@ const Skills = () => {
                   )}
                 </div>
 
-                <span className="text-sm font-semibold text-gray-700 dark:text-gray-300 tracking-wide uppercase">
+                <span className="text-sm font-semibold text-black dark:text-primary tracking-wide uppercase">
                   {skill.name}
                 </span>
               </div>

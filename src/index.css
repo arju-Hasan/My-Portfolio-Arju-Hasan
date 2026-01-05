@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-gradient: linear-gradient(
+    90deg,
+    rgba(108, 43, 238, 0.15),
+    rgba(123, 97, 255, 0.12),
+    rgba(69, 179, 255, 0.08)
+  );
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply font-display bg-background-light dark:bg-background-dark text-slate-900 dark:text-white antialiased overflow-x-hidden selection:bg-primary selection:text-white;
+  background-image: var(--bg-gradient);
+  background-size: 300% 300%;
+  animation: bg-pan 10s ease infinite;
+}
+
+/* Glass, neon and shadow utilities */
+.glass-panel {
+  @apply bg-[rgba(31,28,39,0.7)] backdrop-blur-md border border-white/5;
+}
+.neon-glow {
+  box-shadow: 0 0 30px rgba(108, 43, 238, 0.25);
+}
+.text-glow {
+  text-shadow: 0 0 12px rgba(108, 43, 238, 0.45);
+}
+
+/* Floating image */
+.hero-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #161022;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e2839;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6c2bee;
+}
+
+.social-btn {
+  @apply w-10 h-10 md:w-12 md:h-12 rounded-xl bg-gray-200 dark:bg-gray-800/50 
+  flex items-center justify-center text-gray-600 dark:text-gray-400 
+  hover:bg-primary hover:text-white dark:hover:bg-primary dark:hover:text-white 
+  transition-all duration-300 border border-gray-300 dark:border-gray-700 
+  hover:border-transparent shadow-lg shadow-transparent 
+  hover:shadow-primary/25;
+}

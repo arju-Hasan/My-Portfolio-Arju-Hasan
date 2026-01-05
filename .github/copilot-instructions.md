@@ -1,0 +1,2 @@
+- [ ] Verify that the copilot-instructions.md file is present.
+- [ ] Steps: Scaffold, Customize, Compile, etc.
